@@ -1,0 +1,11 @@
+$susy: (
+	columns: 12,
+	container: 1200px,
+	gutters: 1/4,
+	global-box-sizing: border-box,
+	debug: (image: show)
+);
+
+contents {
+	@include span(8 of 12);
+}
